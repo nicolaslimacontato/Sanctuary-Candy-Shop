@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favIcon -->
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+
+    <!-- myStyle -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- boxIcons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <!-- ligthBox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+
+    <title>Sanctuary</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="sidebar">
+            <div class="logo">
+                <a href="#home">
+                    <i class='bx bxs-invader'></i>
+                </a>
+            </div>
+            <ul class="navlink">
+                <li><a href="#home"><i class='bx bx-home'></i><span>Home</span></a></li>
+                <li><a href="#about"><i class='bx bx-info-circle'></i><span>About</span></a></li>
+                <li><a href="#products"><i class='bx bx-shopping-bag'></i><span>Products</span></a></li>
+                <li><a href="#gallery"><i class='bx bx-image'></i><span>Gallery</span></a></li>
+                <li><a href="#contact"><i class='bx bx-envelope'></i><span>Contact</span></a></li>
+            </ul>
+            <ul class="menuBaixo">
+                <li>
+                    <a href="perfil.html" target="_blank">
+                        <img src="img/profile.jpg" alt="profile">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <!-- home -->
+
+            <section id="home">
+                <div class="homeContainer">
+                    <h1>Sanctuary <span>Candy </span>Shop</h1>
+                </div>
+            </section>
+
+            <!-- about -->
+
+            <section id="about">
+                <div class="aboutContainer">
+                    <h1>About <span>Us</span></h1>
+                </div>
+                <video src='video/balas.mp4' controls></video>
+            </section>
+
+            <!-- products -->
+
+            <section id="products">
+                <div class="productsContainer">
+                    <!-- linha1 -->
+
+                    <div class="productsInner">
+                        <img src="/img/cake1.jpg" alt="cake1">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa ipsa temporibus.
+                        </p>
+                    </div>
+                    <div class="productsInner">
+                        <img src="/img/cake2.jpg" alt="cake2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa ipsa temporibus.
+                        </p>
+                    </div>
+                    <div class="productsInner">
+                        <img src="/img/cake3.jpg" alt="cake3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa ipsa temporibus.
+                        </p>
+                    </div>
+                    <div class="productsInner">
+                        <img src="/img/cake4.jpg" alt="cake4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa ipsa temporibus.
+                        </p>
+                    </div>
+
+                    <!-- linha2 -->
+                    <div class="productsInner">
+                        <img src="/img/cupcake1.jpg" alt="cupcake1">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa ipsa temporibus.
+                        </p>
+                    </div>
+                    <div class="productsInner">
+                        <img src="/img/cupcake2.jpg" alt="cupcake2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa ipsa temporibus.
+                        </p>
+                    </div>
+                    <div class="productsInner">
+                        <img src="/img/cupcake3.jpg" alt="cupcake3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa ipsa temporibus.
+                        </p>
+                    </div>
+                    <div class="productsInner">
+                        <img src="/img/cupcake4.jpg" alt="cupcake4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa ipsa temporibus.
+                        </p>
+                    </div>
+                    <!-- linha3 -->
+                    <div class="productsInner">
+                        <img src="/img/candy1.jpg" alt="candy1">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa ipsa temporibus.
+                        </p>
+                    </div>
+                    <div class="productsInner">
+                        <img src="/img/candy2.jpg" alt="candy2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa ipsa temporibus.
+                        </p>
+                    </div>
+                    <div class="productsInner">
+                        <img src="/img/candy3.jpg" alt="candy3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa ipsa temporibus.
+                        </p>
+                    </div>
+                    <div class="productsInner">
+                        <img src="/img/candy4.jpg" alt="candy4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa ipsa temporibus.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- gallery -->
+            <section id="gallery">
+                <div class="filter filterGroup">
+                    <ul>
+                        <h4>
+                            <li class="active" data-filter="*">all</li>
+                            <li data-filter=".cake">cake</li>
+                            <li data-filter=".cupcake">cupcake</li>
+                            <li data-filter=".candy">candy</li>
+                        </h4>
+                    </ul>
+                </div>
+
+                <!-- grid -->
+                <div class="galleryContainer grid">
+
+                    <!-- 1 linha cake -->
+                    <div class="galleryInner item cake">
+                        <a href="img/cake1.jpg" data-lightBox="cake" data-title="cake">
+                            <img src="img/cake1Thumb.png" alt="cake1">
+                        </a>
+                    </div>
+
+                    <div class="galleryInner item cake">
+                        <a href="img/cake2.jpg" data-lightBox="cake" data-title="cake">
+                            <img src="img/cake2Thumb.png" alt="cake2">
+                        </a>
+                    </div>
+
+                    
+                    <div class="galleryInner item cake">
+                        <a href="img/cake3.jpg" data-lightBox="cake" data-title="cake">
+                            <img src="img/cake3Thumb.png" alt="cake3">
+                        </a>
+                    </div>
+
+                    <div class="galleryInner item cake">
+                        <a href="img/cupcake4.jpg" data-lightBox="cake" data-title="cake">
+                            <img src="img/cake4Thumb.png" alt="cake4">
+                        </a>
+                    </div>
+
+                    <!-- 2 linha cupcake -->
+                    <div class="galleryInner item cupcake">
+                        <a href="img/cupcake1.jpg" data-lightBox="cupcake" data-title="cupcake">
+                            <img src="img/cupcake1Thumb.png" alt="cupcake1">
+                        </a>
+                    </div>
+
+                    
+                    <div class="galleryInner item cupcake">
+                        <a href="img/cupcake2.jpg" data-lightBox="cupcake" data-title="cupcake">
+                            <img src="img/cupcake2Thumb.png" alt="cupcake2">
+                        </a>
+                    </div>
+
+                    
+                    <div class="galleryInner item cupcake">
+                        <a href="img/cupcake3.jpg" data-lightBox="cupcake" data-title="cupcake">
+                            <img src="img/cupcake3Thumb.png" alt="cupcake3">
+                        </a>
+                    </div>
+
+                    
+                    <div class="galleryInner item cupcake">
+                        <a href="img/cupcake4.jpg" data-lightBox="cupcake" data-title="cupcake">
+                            <img src="img/cupcake4Thumb.png" alt="cupcake4">
+                        </a>
+                    </div>
+
+                    <!-- 3 linha candy -->
+                    <div class="galleryInner item candy">
+                        <a href="img/candy1.jpg" data-lightBox="candy" data-title="candy">
+                            <img src="img/candy1Thumb.png" alt="candy1">
+                        </a>
+                    </div>
+
+                  
+                    <div class="galleryInner item candy">
+                        <a href="img/candy2.jpg" data-lightBox="candy" data-title="candy">
+                            <img src="img/candy2Thumb.png" alt="candy2">
+                        </a>
+                    </div>
+
+                   
+                    <div class="galleryInner item candy">
+                        <a href="img/candy3.jpg" data-lightBox="candy" data-title="candy">
+                            <img src="img/candy3Thumb.png" alt="candy3">
+                        </a>
+                    </div>
+
+                    
+                    <div class="galleryInner item candy">
+                        <a href="img/candy4.jpg" data-lightBox="candy" data-title="candy">
+                            <img src="img/candy4Thumb.png" alt="candy4">
+                        </a>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- contact -->
+            <section id="contact">
+                <h1>Contact <span>Us</span></h1>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <ul class="contactContainer">
+                        <li><input type="text" placeholder="Nome: " autocomplete="off" required name="name"
+                                maxlength="40"></li>
+                        <li><input type="email" placeholder="Email: " autocomplete="off" required name="email"
+                                maxlength="60"></li>
+                        <li><input type="tel" placeholder="Telefone: " autocomplete="off" required name="phone"
+                                onkeypress="$(this).mask('(00)00000-0000')"></li>
+                        <li>
+                            <textarea name="message" placeholder="Mensagem: " required cols="30" rows="10"
+                                maxlength="500"></textarea>
+                        </li>
+                        <li>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Cancelar">
+                        </li>
+                        <li>
+                            <span><input type="checkbox">
+                                Eu com certeza não li e aceito os termos.
+                            </span>
+                        </li>
+                    </ul>
+                    <!-- inputs da api -->
+                    <input type="hidden" name="accessKey" value="7f2a54a6-145e-4cdd-b336-7e5420408255">
+                    <!-- pagina de redirecionamento -->
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html#contact">
+                    
+
+                </form>
+                <!-- rodapé -->
+                <footer>
+                    <ul class="rodapeContainer">
+                        <li>
+                            <h1>Sanctuary <span>Candy </span>Shop</h1>
+                        </li>
+                        <li><i class="bx bxl-facebook-circle"></i></li>
+                        <li><i class="bx bxl-instagram"></i></li>
+                        <li><i class="bx bxl-tiktok"></i></li>
+                        <li><i class="bx bxl-linkedin"></i></li>
+                        <li>
+                            <h4>&copy; Copyright all rights reserved 2023</h4>
+                        </li>
+                    </ul>
+                </footer>
+
+            </section>
+
+        </div>
+    </main>
+
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- jqueryMask -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+    <!-- lightBox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+
+    <!-- isoTope -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+    <!-- myScript -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
